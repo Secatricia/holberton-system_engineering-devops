@@ -1,0 +1,2 @@
+#!/bin/bash
+LINE='head -X iacta | tail -3'
