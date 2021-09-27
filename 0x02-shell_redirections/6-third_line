@@ -1,2 +1,2 @@
 #!/bin/bash
-LINE='head -X iacta | tail -3'
+LINE='head -n 3 iacta | tail -n 1

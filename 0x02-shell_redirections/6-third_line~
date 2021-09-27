@@ -1,2 +1,2 @@
 #!/bin/bash
-LINE='head -X fichier | tail -'
+LINE='head -3 iacta | tail -1'
