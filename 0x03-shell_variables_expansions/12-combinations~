@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e {a..z}{a..z}"\n" | sed 'oo/.//'
+echo -e {a..z}{a..z}"\n" | sed 's/oo//'
