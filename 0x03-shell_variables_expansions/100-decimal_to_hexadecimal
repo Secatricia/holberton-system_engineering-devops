@@ -1,2 +1,2 @@
 #!/bin/bash
-hex=$(([##16]$DECIMAL))
+printf "%x\n" $DECIMAL
