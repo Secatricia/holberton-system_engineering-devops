@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# Displays Best School or bad and good luck.
+i=0
+while ((i < 10))
+do
+if [[ "$i" -eq "3" ]]
+	then
+	echo "bad luck"
+	((i++))
+elif [[ "$i" -eq "7" ]]
+	then
+	echo "good luck"
+	((i++))
+else
+   echo "Best School"
+   ((i++))
+   fi
+done
