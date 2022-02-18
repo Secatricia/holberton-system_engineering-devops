@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Bash script that displays To infinity and beyond indefinitely
+kill -s SIGTERM $(pgrep -f 7-highlander)
