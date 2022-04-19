@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
-apt update -y && apt upgrade -y
-apt install nginx -y
-nginx -s reload
-echo "Hello World" > /var/www/html/index.nginx-debian.html
-service nginx restart
+# Install nginx and  return a page that contains the string 
+# Hello World When querying Nginx at its root / with a GET request
+sudo apt update -y
+sudo apt install nginx -y
+sudo nginx -s reload
+sudo echo "Hello World!" > /var/www/html/index.nginx-debian.html
+sudo service nginx restart
