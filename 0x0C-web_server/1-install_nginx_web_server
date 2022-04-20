@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#Install nginx and return a page that contains the string
+#Install nginx and change the first html page
 
 apt update -y
 apt install nginx -y
