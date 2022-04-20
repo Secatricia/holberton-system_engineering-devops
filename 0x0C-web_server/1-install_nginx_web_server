@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Install nginx and  return a page that contains the string 
 # Hello World When querying Nginx at its root / with a GET request
+
 apt update -y
 apt install nginx -y
 echo "Hello World!" > /var/www/html/index.nginx-debian.html
