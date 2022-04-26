@@ -12,4 +12,4 @@ backend web-backend
 	server 3560-web-01 34.75.209.112:80 check
 	server 3560-web-02 34.139.115.250:80 check" >> /etc/haproxy/haproxy.cfg
 
-service haproxy start
+service haproxy restart
