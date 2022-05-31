@@ -6,7 +6,7 @@ import requests
 def number_of_subscribers(subreddit):
     url = "https://www.reddit.com/r/{}/about.json"
     queries = requests.get(url.format(subreddit),
-                           headers={"Querie": "number of subscribers"},
+                           headers={"User-Agent": "holberton"},
                            allow_redirects=False)
 
     if queries.status_code == 200:  # if the request succeeded
