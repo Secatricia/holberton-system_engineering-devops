@@ -5,8 +5,9 @@ import requests
 
 def top_ten(subreddit):
     url = "https://www.reddit.com/r/{}/hot.json?limit=10"
-    queries = requests.get(url.format(subreddit),
-                           headers={"Querie": "10 hot posts listed"},
+    queries = requests.get(url
+                           .format(subreddit),
+                           headers={"User-Agent": "Holberton"},
                            allow_redirects=False)
 
     if queries.status_code == 200:
